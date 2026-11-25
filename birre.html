@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birre | TABOO Food & Drink</title>
+  <meta name="description" content="La selezione di birre di TABOO Food & Drink a Valdagno: tipologie, provenienza, gradazione, formato e prezzi.">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="menu" data-cat="birre">
+<a class="skip" href="#main">Vai al contenuto</a>
+<!-- ============ HEADER (uguale in tutte le pagine) ============ -->
+<header class="site-header">
+  <a href="index.html" class="brand" aria-label="TABOO Food & Drink - Home">
+    <!-- LOGO: assets/logo/logo-taboo.png (se manca compare la scritta TABOO) -->
+    <img src="assets/logo/logo-taboo.png" alt="Logo TABOO Food & Drink" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'brand-text',textContent:'TABOO'}))">
+  </a>
+  <button class="nav-toggle" aria-label="Apri il menu di navigazione" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  <nav id="nav" class="nav" aria-label="Navigazione principale">
+    <a href="index.html">Home</a>
+    <div class="has-sub">
+      <a href="menu.html" aria-current="page">Menu</a>
+      <div class="sub">
+        <a href="birre.html" aria-current="page">Birre</a>
+        <a href="food.html">Food</a>
+        <a href="drinks.html">Drinks</a>
+      </div>
+    </div>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+</header>
+<main id="main">
+<section class="page-head"><div class="wrap">
+  <p class="crumb"><a href="menu.html">Menu</a> / Birre</p>
+  <h1>Birre</h1><p class="lead" id="intro"></p>
+  <div class="menu-tabs"><a href="birre.html" aria-current="page">Birre</a><a href="food.html">Food</a><a href="drinks.html">Drinks</a></div>
+</div></section>
+<!-- Contenuti: si modificano in script.js (oggetto MENU) -->
+<section class="section"><div class="wrap" id="list"><noscript>Attiva JavaScript per vedere il menu.</noscript></div></section>
+</main>
+<!-- ============ FOOTER (uguale in tutte le pagine) ============ -->
+<footer class="footer">
+  <div class="wrap footer-in">
+    <img src="assets/logo/logo-taboo.png" alt="TABOO" class="footer-logo" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'brand-text',textContent:'TABOO'}))">
+    <p>Corso Italia 9/E, 36078 Valdagno (VI)<br><a href="tel:+393496014787">+39 349 601 4787</a> · <a href="mailto:taboovaldagnosas@gmail.com">taboovaldagnosas@gmail.com</a></p>
+    <p><a href="https://www.instagram.com/taboo_food.drink/" target="_blank" rel="noopener">Instagram</a> 
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
